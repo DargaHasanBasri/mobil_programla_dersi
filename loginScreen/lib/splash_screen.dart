@@ -72,32 +72,4 @@ class InitState extends State<SplashScreen> {
       ),
     );
   }
-
-  /*
- Widget initWidget() {
-    return Scaffold(
-      body: Stack(
-        children: <Widget>[
-          Container(
-
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [
-                  Color(0xFF4876ff),
-                  Color(0xFF4876ff),
-                  Color(0xFF4876ff),
-                  Color(0xFF4876ff),
-                ],
-                stops: [0.1, 0.4, 0.7, 0.9],
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-   */
 }
